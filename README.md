@@ -7,7 +7,7 @@ Vim Setup Notes
 
 3. install vundle (Vim plugin installer) from Github: `git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-4. Launch ‘vim’ and run ‘:PluginInstall’
+4. Launch `vim` and run `:PluginInstall`
 
 5. You can now uncomment Solarize in your .vimrc file. Everything should be installed now except for Solarize, which is a color scheme tool. If you’re using iTerm, it will override your color schemes, so you still need to change your color scheme within iTerm.
 
