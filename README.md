@@ -19,14 +19,15 @@ Vim Setup Notes
 
 These next few steps deal with setting up `zsh` to further customize your terminal display.
 
-9. Make sure you have the .oh-my-zsh folder. Zshell is a Unix shell that has some improvements over bash.
+1. Make sure you have the .oh-my-zsh folder. Zshell is a Unix shell that has some improvements over bash.
 
-10. Create a new `zsh` config file: `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
+2. Create a new `zsh` config file: `cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc`
 
-And set it as your default shell: `chsh -s /bin/zsh`
+3. Set it as your default shell: `chsh -s /bin/zsh`
 
-11. If your “vg” short command and symlink to DS_HOME no longer work, add this to the end of your .zshrc file:
+4. If your “vg” short command and symlink to DS_HOME no longer work, add this to the end of your .zshrc file:
 
+```
 export DS_HOME="/Volumes/ds_home/core"
     function vg() {
         if [ $1 ]
@@ -38,3 +39,4 @@ export DS_HOME="/Volumes/ds_home/core"
                 pushd $DS_HOME;
            fi
     }
+```
