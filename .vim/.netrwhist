@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Volumes/ds_home/core/rails/app/assets'
+let g:netrw_dirhist_2='/Volumes/ds_home/core/rails/app/assets/javascripts'
+let g:netrw_dirhist_3='/Volumes/ds_home/core/rails/app/assets/javascripts/onboarding'
+let g:netrw_dirhist_4='/Volumes/ds_home/core/rails/lib/tasks'
+let g:netrw_dirhist_5='/Users/nathanielwroblewski/Desktop/coffeescad'
+let g:netrw_dirhist_6='/Volumes/ds_home/core/rails/spec/controllers'
+let g:netrw_dirhist_7='/Volumes/ds_home/core/rails'
+let g:netrw_dirhist_8='/Volumes/ds_home/core/rails/db/migrate'
+let g:netrw_dirhist_9='/Volumes/ds_home/core/rails/lib/tasks'

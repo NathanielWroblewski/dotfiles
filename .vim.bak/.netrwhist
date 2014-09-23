@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Volumes/ds_home/core/rails'
+let g:netrw_dirhist_2='/Users/nathanielwroblewski/.vim/bundle'
+let g:netrw_dirhist_3='/Users/nathanielwroblewski/.vim'
+let g:netrw_dirhist_4='/Users/nathanielwroblewski'
+let g:netrw_dirhist_5='/Volumes/ds_home/core/rails'
+let g:netrw_dirhist_6='/Volumes/ds_home/core/rails/app'
+let g:netrw_dirhist_7='/Volumes/ds_home/core/rails/app/controllers'
